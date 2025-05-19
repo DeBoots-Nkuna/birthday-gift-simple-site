@@ -1,0 +1,132 @@
+body {
+  font-family: 'Fredoka', sans-serif;
+  text-align: center;
+  color: white;
+  background: linear-gradient(#fdf0d5, #780000);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-shadow: 0 0 3px black;
+}
+
+/* header div */
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* patrick image */
+#patrick-img {
+  width: 200px;
+  border-radius: 50%;
+  border: 7px solid #780000;
+}
+
+/* bday years and date */
+#bday-years {
+  padding: 5px 10px;
+  background-color: #780000;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+#bday-date {
+  padding: 5px 10px;
+  background-color: #780000;
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/* gift headings */
+.gift-title {
+  font-weight: 400;
+}
+
+.gift-hint {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+/* gift image */
+.gift-img {
+  width: 400px;
+  height: 400px;
+  background-image: url('images/gift-cover.jpg');
+  background-size: cover;
+  margin: 0 auto;
+  border: 7px solid #fdf0d5;
+  border-radius: 8px;
+}
+
+/* happy gif */
+#gift-happy-gif:hover {
+  background-image: url('images/happy.gif');
+  background-size: cover;
+}
+
+#gift-happy-gif {
+  width: 700px;
+}
+
+/* hot gif */
+#gift-hot-gif:hover {
+  background-image: url('images/hot.gif');
+  background-size: cover;
+}
+/*  genius gif */
+#gift-genius-gif:hover {
+  background-image: url('images/genius.gif');
+  background-size: cover;
+}
+
+/* badass gif */
+#gift-badass-gif:hover {
+  background-image: url('images/badass.gif');
+  background-size: cover;
+}
+#gift-badass-gif {
+  width: 700px;
+}
+
+/* cheers gif */
+
+#gift-cheers-gif:hover {
+  background-image: url('images/cheers.gif');
+  background-size: cover;
+}
+#gift-cheers-gif {
+  width: 700px;
+}
+
+/* footer */
+.footer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h2 {
+  font-weight: 400;
+}
+
+.footer h3 {
+  font-weight: 400;
+}
+.footer h5 {
+  margin-top: 0;
+  font-weight: 500;
+  background-color: #fdf0d5;
+  padding: 5px 10px;
+  font-size: 20px;
+  color: #780000;
+  border-radius: 7px;
+}
